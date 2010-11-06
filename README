@@ -1,0 +1,17 @@
+SPOTIFY QUIZ
+Author: Knut Nesheim <knutin@gmail.com>
+
+Simple multiplayer game where the objective is to guess the track that is
+playing faster than your opponents. The tracks are selected randomly from
+the libraries of all players.
+
+Dependencies:
+ * Twisted (python-twisted in Ubuntu)
+ * PyGame (python-pygame in Ubuntu)
+ * pyspotify with alsahelper/osshelper (http://github.com/winjer/pyspotify)
+ * spotify_appkey.key must be present in this directory
+
+Due to the dependency on pyspotify and alsahelper/osshelper, the client will
+only run on GNU/Linux. The server however, only relies on Twisted and can run
+pretty much anywhere.
+
